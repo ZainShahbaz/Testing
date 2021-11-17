@@ -7,14 +7,14 @@ import Clock from './Clock';
 import Tick from './Clock';
 
 function Welcome(props) {
-// const element=(
-//   <div>
-// <h2>Now Time is {new Date().toLocaleTimeString()}</h2>
-//   </div>
-return(
-<div>
-<h1>Hi! my name is {props.value}</h1>
-</div>)
+  // const element=(
+  //   <div>
+  // <h2>Now Time is {new Date().toLocaleTimeString()}</h2>
+  //   </div>
+  return (
+    <div>
+      <h1>Hi! my name is {props.value}</h1>
+    </div>)
 }
 
 
@@ -25,13 +25,13 @@ return(
 
 ReactDOM.render(
   <React.StrictMode>
-     {/* <App /> */}
-  
-<Welcome value="Zain"/>
-<Welcome value="Sheikh"/>
-<Welcome value="MergeStack"/>
-{/* <Clock/> */}
-<Tick/>
+    {/* <App /> */}
+
+    <Welcome value="Zain" />
+    <Welcome value="Sheikh" />
+    <Welcome value="MergeStack" />
+    {/* <Clock/> */}
+    <Tick />
   </React.StrictMode>,
   document.getElementById('root')
 );
